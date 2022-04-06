@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat+Alternates:ital,wght@1,100&family=Montserrat:ital,wght@0,100;1,200&family=Nunito+Sans:ital,wght@1,200&family=Sacramento&family=Ubuntu+Mono:ital@1&display=swap');
+body{
+    margin: 0;
+    background-color:whitesmoke;
+    font-family: 'Nunito Sans', sans-serif;
+    /* width: 100vw; */
+    height: 100vh;
+    text-align: center;
+}
+.h3{
+    
+    display: none;
+}
+.text{
+    /* text-align: center; */
+    padding: 1rem 1rem;
+    letter-spacing: 0.5rem;
+}
+.unsplash{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    width: 10rem;
+    /* background: rgb(255, 255, 255, 0.9); */
+}
+/* #image{
+    text-align: center; 
+    width: 40%;
+} */
+img{
+    padding: 1rem 20rem ;
+    width: 20rem;
+    /* margin: 0px; */
+
+}
+
+@media screen and (max-width:900px) {
+    .h1{
+        display: none;
+    }
+    .h3{
+        display: inline;
+    }
+    img{
+        padding: 1rem 5rem ;
+        width: 15rem;
+        /* margin: 0px; */
+    
+    }
+    .loader{
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 50%;
+        right: 50%;
+        width: 5rem;
+        /* background: rgb(255, 255, 255, 0.9); */
+    }
+}
